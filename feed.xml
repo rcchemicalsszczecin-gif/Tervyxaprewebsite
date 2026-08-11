@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Tervyxa Systems — wiedza i research</title><link>https://tervyxa.pl/</link><description>AI systems, automatyzacja, local AI, RAG i software engineering.</description><item><title>Jak wdrożyć AI w firmie?</title><link>https://tervyxa.pl/wiedza/jak-wdrozyc-ai-w-firmie/</link><guid>https://tervyxa.pl/wiedza/jak-wdrozyc-ai-w-firmie/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item><item><title>Ile kosztuje wdrożenie AI?</title><link>https://tervyxa.pl/pytania/ile-kosztuje-wdrozenie-ai/</link><guid>https://tervyxa.pl/pytania/ile-kosztuje-wdrozenie-ai/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item><item><title>Lokalne AI czy chmura?</title><link>https://tervyxa.pl/porownania/lokalne-ai-vs-chmura/</link><guid>https://tervyxa.pl/porownania/lokalne-ai-vs-chmura/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item><item><title>Czym jest RAG?</title><link>https://tervyxa.pl/wiedza/czym-jest-rag/</link><guid>https://tervyxa.pl/wiedza/czym-jest-rag/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item><item><title>Audyt AI dla firmy</title><link>https://tervyxa.pl/audyt-ai/</link><guid>https://tervyxa.pl/audyt-ai/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Tervyxa Systems — wiedza i research</title>
+    <link>https://tervyxa.pl/</link>
+    <description>Systemy AI dla firm, automatyzacja, RAG, Local AI, research i metodologia.</description>
+    <language>pl-PL</language>
+    <lastBuildDate>Tue, 11 Aug 2026 18:00:00 +0200</lastBuildDate>
+    <item><title>Jak mierzyć jakość systemu AI?</title><link>https://tervyxa.pl/pytania/jak-mierzyc-jakosc-systemu-ai/</link><guid>https://tervyxa.pl/pytania/jak-mierzyc-jakosc-systemu-ai/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>RAG czy fine-tuning?</title><link>https://tervyxa.pl/pytania/rag-czy-fine-tuning/</link><guid>https://tervyxa.pl/pytania/rag-czy-fine-tuning/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>Jak zabezpieczyć system RAG?</title><link>https://tervyxa.pl/pytania/jak-zabezpieczyc-system-rag/</link><guid>https://tervyxa.pl/pytania/jak-zabezpieczyc-system-rag/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>Agent AI vs klasyczny workflow</title><link>https://tervyxa.pl/porownania/agent-ai-vs-workflow/</link><guid>https://tervyxa.pl/porownania/agent-ai-vs-workflow/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>Research RAG — jakość wyszukiwania i odpowiedzi</title><link>https://tervyxa.pl/research/rag/</link><guid>https://tervyxa.pl/research/rag/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>Research Local AI — prywatność, koszt i wydajność</title><link>https://tervyxa.pl/research/local-ai/</link><guid>https://tervyxa.pl/research/local-ai/</guid><pubDate>Tue, 11 Aug 2026 18:00:00 +0200</pubDate></item>
+    <item><title>Jak wdrożyć AI w firmie?</title><link>https://tervyxa.pl/wiedza/jak-wdrozyc-ai-w-firmie/</link><guid>https://tervyxa.pl/wiedza/jak-wdrozyc-ai-w-firmie/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item>
+    <item><title>Audyt AI dla firmy</title><link>https://tervyxa.pl/audyt-ai/</link><guid>https://tervyxa.pl/audyt-ai/</guid><pubDate>Tue, 11 Aug 2026 12:00:00 +0200</pubDate></item>
+  </channel>
+</rss>
