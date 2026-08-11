@@ -1,4 +1,4 @@
-name: Generuj grafikę hero 8K
+name: Ulepsz grafikę hero 8K
 
 on:
   push:
@@ -11,52 +11,91 @@ permissions:
   contents: write
 
 jobs:
-  build-hero:
+  enhance-hero:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Pobierz repo
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Python
+      - name: Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.10'
 
-      - name: Pillow
-        run: python -m pip install --upgrade pillow
+      - name: Przygotuj środowisko Real-ESRGAN
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.1.2 torchvision==0.16.2
+          python -m pip install pillow opencv-python-headless basicsr==1.4.2 facexlib gfpgan
+          git clone --depth 1 https://github.com/xinntao/Real-ESRGAN.git /tmp/Real-ESRGAN
+          python -m pip install -e /tmp/Real-ESRGAN
+          mkdir -p /tmp/Real-ESRGAN/weights /tmp/tervyxa-input /tmp/tervyxa-output
+          wget -q https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -O /tmp/Real-ESRGAN/weights/RealESRGAN_x4plus.pth
 
-      - name: Wygeneruj 8K
+      - name: Przygotuj bazę 1920x1080
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          src = Path('assets/tervyxa-hero-8k.webp')
+          dst = Path('/tmp/tervyxa-input/tervyxa.png')
+          img = Image.open(src).convert('RGB')
+          img = img.resize((1920, 1080), Image.Resampling.LANCZOS)
+          img.save(dst, 'PNG')
+          print('INPUT', img.size)
+          PY
+
+      - name: Super-resolution Real-ESRGAN x4
+        working-directory: /tmp/Real-ESRGAN
+        run: |
+          python inference_realesrgan.py \
+            -n RealESRGAN_x4plus \
+            -i /tmp/tervyxa-input/tervyxa.png \
+            -o /tmp/tervyxa-output \
+            --outscale 4 \
+            --tile 256 \
+            --fp32 \
+            --suffix enhanced \
+            --ext png
+
+      - name: Zapisz finalne 7680x4320 WebP
         run: |
           python - <<'PY'
           from PIL import Image, ImageFilter
           from pathlib import Path
-
-          src = Path('assets/tervyxa-original-full.webp')
-          dst = Path('assets/tervyxa-hero-8k.webp')
+          candidates = list(Path('/tmp/tervyxa-output').glob('*.png'))
+          if not candidates:
+              raise SystemExit('Brak wyniku Real-ESRGAN')
+          src = candidates[0]
+          dst = Path('assets/tervyxa-hero-8k-enhanced.webp')
           img = Image.open(src).convert('RGB')
-          img = img.resize((7680, 4320), Image.Resampling.LANCZOS)
-          img = img.filter(ImageFilter.UnsharpMask(radius=1.2, percent=125, threshold=2))
-          img.save(dst, 'WEBP', quality=90, method=6)
-          print('Wynik:', dst, Image.open(dst).size, dst.stat().st_size)
+          if img.size != (7680, 4320):
+              img = img.resize((7680, 4320), Image.Resampling.LANCZOS)
+          img = img.filter(ImageFilter.UnsharpMask(radius=0.7, percent=70, threshold=2))
+          img.save(dst, 'WEBP', quality=96, method=6)
+          verify = Image.open(dst)
+          assert verify.size == (7680, 4320), verify.size
+          print('FINAL', verify.size, dst.stat().st_size)
           PY
 
-      - name: Podmień stronę na asset 8K
+      - name: Przełącz stronę na ulepszony asset
         run: |
           python - <<'PY'
           from pathlib import Path
           p = Path('index.html')
           s = p.read_text(encoding='utf-8')
-          s = s.replace('assets/tervyxa-original-full.webp', 'assets/tervyxa-hero-8k.webp')
+          s = s.replace('assets/tervyxa-hero-8k.webp', 'assets/tervyxa-hero-8k-enhanced.webp')
           p.write_text(s, encoding='utf-8')
           PY
 
-      - name: Commit 8K
+      - name: Commit finalnego 8K
         run: |
           git config user.name 'Tervyxa Build Bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add assets/tervyxa-hero-8k.webp index.html
+          git add assets/tervyxa-hero-8k-enhanced.webp index.html
           git diff --cached --quiet && exit 0
-          git commit -m 'asset: publish 8K Tervyxa hero'
+          git commit -m 'asset: enhance Tervyxa hero with Real-ESRGAN 8K'
           git push
