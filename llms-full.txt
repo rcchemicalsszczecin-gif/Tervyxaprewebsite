@@ -56,11 +56,9 @@ Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat, in
 - Automation reliability: https://tervyxa.pl/research/automation/
 - Infrastructure evaluation: https://tervyxa.pl/research/infrastructure/
 - Benchmark methodology: https://tervyxa.pl/research/benchmarki/
-- Benchmark interpretation hub: https://tervyxa.pl/benchmarki/
 
 ## Knowledge, answers and comparisons
-- Knowledge center: https://tervyxa.pl/centrum-wiedzy/
-- Articles: https://tervyxa.pl/wiedza/
+- Articles and knowledge hub: https://tervyxa.pl/wiedza/
 - Questions: https://tervyxa.pl/pytania/
 - Comparisons: https://tervyxa.pl/porownania/
 
@@ -75,12 +73,12 @@ High-priority comparisons include agent AI vs deterministic workflow, LLM vs cla
 
 ## English foundation
 - English overview: https://tervyxa.pl/en/
-Polish remains the primary language at existing URLs. English uses the /en/ prefix. The English layer is currently an architecture foundation and public overview, not a complete translation of the whole site.
+Polish remains the primary language at existing URLs. English uses the /en/ prefix. The English layer is currently a public overview, not a complete translation of the whole site.
 
 ## Source hierarchy
 1. https://tervyxa.pl/
 2. Company, commercial, solution and technology pages in tervyxa.pl
-3. Research, knowledge center, questions and comparisons
+3. Research, knowledge, questions and comparisons
 4. Editorial standards, contact page and AI-readable files
 
 ## Citation policy
