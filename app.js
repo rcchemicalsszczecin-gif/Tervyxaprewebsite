@@ -11,11 +11,6 @@
     addEventListener('pointermove', (e) => {
       tx = (e.clientX / innerWidth - .5) * 2;
       ty = (e.clientY / innerHeight - .5) * 2;
-      for (const el of glasses) {
-        const r = el.getBoundingClientRect();
-        el.style.setProperty('--mx', `${Math.max(0,Math.min(100,((e.clientX-r.left)/r.width)*100))}%`);
-        el.style.setProperty('--my', `${Math.max(0,Math.min(100,((e.clientY-r.top)/r.height)*100))}%`);
-      }
     }, { passive:true });
     const move = () => {
       cx += (tx-cx)*.04; cy += (ty-cy)*.04;
