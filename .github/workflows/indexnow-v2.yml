@@ -1,0 +1,29 @@
+name: IndexNow prewebsite v2 submission
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/indexnow-v2.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit updated homepage to IndexNow
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://tervyxa.pl/'
+          KEY='1fac488a605d166e281f2e07a72e0957'
+          KEY_LOCATION='https://tervyxa.pl/1fac488a605d166e281f2e07a72e0957.txt'
+          CODE="$(curl -sS -o /tmp/indexnow.out -w '%{http_code}' --get 'https://www.bing.com/indexnow' \
+            --data-urlencode "url=${URL}" \
+            --data-urlencode "key=${KEY}" \
+            --data-urlencode "keyLocation=${KEY_LOCATION}")"
+          cat /tmp/indexnow.out || true
+          echo "IndexNow HTTP ${CODE}"
+          test "${CODE}" = '200' -o "${CODE}" = '202'
