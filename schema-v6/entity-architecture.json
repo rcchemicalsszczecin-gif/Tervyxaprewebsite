@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://tervyxa.pl/#organization",
+      "name": "Tervyxa Systems",
+      "url": "https://tervyxa.pl/",
+      "email": "kontakt@tervyxa.pl",
+      "location": {
+        "@type": "Place",
+        "name": "Szczecin, Polska"
+      },
+      "areaServed": "Poland",
+      "knowsAbout": [
+        "systemy AI",
+        "automatyzacja procesów",
+        "RAG",
+        "lokalne AI",
+        "infrastruktura AI"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tervyxa.pl/#website",
+      "url": "https://tervyxa.pl/",
+      "publisher": {
+        "@id": "https://tervyxa.pl/#organization"
+      }
+    }
+  ]
+}
