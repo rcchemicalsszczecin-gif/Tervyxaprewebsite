@@ -1,0 +1,52 @@
+.section-intro{max-width:820px;margin:22px 0 0;color:var(--muted);font-size:15px;line-height:1.75;text-wrap:pretty}
+.service-grid-expanded{align-items:stretch}
+.compact-card{min-height:250px}
+.signal-list{display:grid;gap:8px;margin:22px 0 0;padding:0;list-style:none}
+.signal-list li{position:relative;padding-left:18px;color:rgba(219,239,248,.68);font-size:12px;line-height:1.5}
+.signal-list li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:1px;background:var(--cyan);box-shadow:0 0 10px rgba(110,220,255,.45)}
+.problem-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:42px}
+.problem-card{min-height:210px;padding:24px;border:1px solid rgba(126,216,255,.13);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(18,83,120,.045)),rgba(3,14,28,.64)}
+.problem-card strong{display:block;font-size:15px;line-height:1.3}
+.problem-card p{margin:14px 0 0;font-size:13px;line-height:1.65}
+.problem-card span{display:block;margin-top:18px;color:rgba(126,216,255,.68);font-size:9px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
+.process-grid-four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.project-section{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:58px;align-items:start}
+.project-copy p{max-width:760px;margin:22px 0 0}
+.project-note{color:rgba(191,223,237,.5)!important;font-size:12px!important}
+.project-checklist{display:grid;grid-template-columns:auto 1fr;gap:0;border:1px solid rgba(126,216,255,.14);border-radius:24px;overflow:hidden;background:rgba(4,18,34,.6)}
+.project-checklist span,.project-checklist strong{padding:17px 18px;border-bottom:1px solid rgba(126,216,255,.1)}
+.project-checklist span:nth-last-child(-n+2),.project-checklist strong:nth-last-child(-n+2){border-bottom:0}
+.project-checklist span{color:rgba(123,216,255,.48);font-size:8px;font-weight:850;letter-spacing:.18em;border-right:1px solid rgba(126,216,255,.1)}
+.project-checklist strong{font-size:12px;line-height:1.35}
+
+@media(hover:hover) and (pointer:fine){
+  .problem-card{transition:transform .18s ease,border-color .18s ease,background-color .18s ease}
+  .problem-card:hover{transform:translateY(-2px);border-color:rgba(126,216,255,.28);background-color:rgba(7,26,46,.76)}
+}
+
+@media(max-width:1100px){
+  .problem-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .process-grid-four{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .project-section{grid-template-columns:1fr;gap:30px}
+  .project-checklist{max-width:700px}
+}
+
+@media(max-width:900px){
+  .section-intro{font-size:14px}
+  .problem-grid{grid-template-columns:1fr 1fr;gap:9px}
+  .problem-card{min-height:0}
+  .process-grid-four{grid-template-columns:1fr}
+}
+
+@media(max-width:599px){
+  .section-intro{margin-top:18px;font-size:13.5px;line-height:1.65}
+  .problem-grid{grid-template-columns:1fr;margin-top:30px}
+  .problem-card{padding:19px;border-radius:19px}
+  .problem-card strong{font-size:14px}
+  .problem-card p{font-size:12.8px}
+  .signal-list{margin-top:18px}
+  .signal-list li{font-size:11.5px}
+  .project-section{gap:24px}
+  .project-checklist span,.project-checklist strong{padding:14px 13px}
+  .project-checklist strong{font-size:11.5px}
+}
