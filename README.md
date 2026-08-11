@@ -39,5 +39,12 @@ Ta witryna pozostaje stroną tymczasową przed publikacją pełnego serwisu Terv
 - structured data: Organization, WebSite, WebPage, ImageObject, Service i FAQPage,
 - brak fikcyjnych klientów, wyników, statystyk i danych kontaktowych.
 
+## Walidacja v2
+- JSON-LD: syntaktycznie poprawny,
+- manifest: poprawny JSON,
+- sitemap: poprawny XML z primary image,
+- IndexNow: zgłoszenie aktualizacji zakończone sukcesem,
+- GitHub Pages: finalny build ma być jedynym gate'em publikacji po tym checkpointcie.
+
 ## Granica projektu
 Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanały kontaktu, szczegółowe podstrony usług i rozbudowana architektura informacji zostaną wdrożone w main website.
