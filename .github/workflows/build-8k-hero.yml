@@ -1,0 +1,62 @@
+name: Generuj grafikę hero 8K
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-8k-hero.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-hero:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pillow
+        run: python -m pip install --upgrade pillow
+
+      - name: Wygeneruj 8K
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageFilter
+          from pathlib import Path
+
+          src = Path('assets/tervyxa-original-full.webp')
+          dst = Path('assets/tervyxa-hero-8k.webp')
+          img = Image.open(src).convert('RGB')
+          img = img.resize((7680, 4320), Image.Resampling.LANCZOS)
+          img = img.filter(ImageFilter.UnsharpMask(radius=1.2, percent=125, threshold=2))
+          img.save(dst, 'WEBP', quality=90, method=6)
+          print('Wynik:', dst, Image.open(dst).size, dst.stat().st_size)
+          PY
+
+      - name: Podmień stronę na asset 8K
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('assets/tervyxa-original-full.webp', 'assets/tervyxa-hero-8k.webp')
+          p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Commit 8K
+        run: |
+          git config user.name 'Tervyxa Build Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add assets/tervyxa-hero-8k.webp index.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'asset: publish 8K Tervyxa hero'
+          git push
