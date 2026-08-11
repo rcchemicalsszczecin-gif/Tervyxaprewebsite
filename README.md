@@ -13,15 +13,18 @@ Prewebsite istnieje do czasu publikacji docelowego serwisu Tervyxa Systems. Jego
 - publiczny kontakt: `kontakt@tervyxa.pl`,
 - adres uliczny nie jest publikowany,
 - osoba założyciela / Person schema nie jest publikowana,
+- `/autor/` opisuje odpowiedzialność organizacyjną Tervyxa Systems za treść i nie identyfikuje imiennego autora,
 - brak publicznie potwierdzonych klientów, case studies, referencji, certyfikatów i wyników wdrożeń,
 - benchmarki mogą być publikowane wyłącznie z jawną metodyką i dowodem pomiaru.
 
 ## Główna architektura
 
-### Firma i kontakt
+### Firma, zaufanie i kontakt
 - `/firma/`
 - `/dlaczego-tervyxa/`
 - `/o-nas/`
+- `/autor/`
+- `/standardy/`
 - `/standardy-redakcyjne/`
 - `/kontakt/`
 - `/ai-szczecin/`
@@ -58,10 +61,20 @@ Prewebsite istnieje do czasu publikacji docelowego serwisu Tervyxa Systems. Jego
 - `/technologie/infrastruktura-ai/`
 
 ### Wiedza, odpowiedzi i porównania
+- `/centrum-wiedzy/` — mapa wiedzy,
 - `/wiedza/` — 10 artykułów,
 - `/pytania/` — answer-first / AEO,
 - `/porownania/` — strony decyzyjne,
-- `/research/` — metodologia, wzorce oceny i warstwa evidence-first.
+- `/research/` — metodologia, wzorce oceny i evidence-first,
+- `/benchmarki/` — metodologia i interpretacja benchmarków,
+- `/laboratorium/` — standard dokumentowania eksperymentów,
+- `/laboratorium/metodologia-benchmarkow/` — szczegółowa metodyka.
+
+### Narzędzia
+- `/narzedzia/`
+- `/narzedzia/checklista-wdrozenia-ai/`
+- `/narzedzia/kalkulator-automatyzacji/`
+- `/raport-ai/`
 
 ### Branże
 - `/ai-dla-biura/`
@@ -110,7 +123,7 @@ GEO/AEO jest traktowane jako warstwa nad poprawnym SEO, spójnym entity i public
 
 ## Stan przebudowy
 
-W 2026-08-11 wykonano przebudowę głównych hubów, Technology Authority, Comparison Engine, Solution Engine, Industry Authority oraz całego klastra `/wiedza/*`. Następnie rozpoczęto final normalization / crawl QA: usuwanie martwych URL-i, wyrównanie sitemap i plików AI-readable oraz finalną walidację GitHub Pages.
+W 2026-08-11 wykonano przebudowę głównych hubów, Technology Authority, Comparison Engine, Solution Engine, Industry Authority oraz klastra `/wiedza/*`. Final normalization / crawl QA obejmuje sprawdzenie zgodności drzewa repo z sitemapą, public truth, AI-readable files, linkowania, metadata oraz końcowego builda GitHub Pages.
 
 ## Granica projektu
 
