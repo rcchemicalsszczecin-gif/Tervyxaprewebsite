@@ -2,11 +2,14 @@
   "id": "/",
   "name": "Tervyxa Systems",
   "short_name": "Tervyxa",
-  "description": "Systemy AI, automatyzacja, dedykowane oprogramowanie i infrastruktura technologiczna.",
+  "description": "Systemy AI dla firm, automatyzacja procesów biznesowych, dedykowane oprogramowanie, integracje API i infrastruktura AI.",
   "lang": "pl-PL",
+  "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#010611",
-  "theme_color": "#010611"
+  "theme_color": "#010611",
+  "categories": ["business", "productivity", "utilities"]
 }
