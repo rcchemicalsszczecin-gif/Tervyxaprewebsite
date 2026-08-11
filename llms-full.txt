@@ -1,102 +1,89 @@
-# Tervyxa Systems — AI-readable public reference
+# Tervyxa Systems — public reference
 
-## Definition
-Tervyxa Systems jest firmą technologiczną ze Szczecina w Polsce. Publiczny zakres działalności obejmuje projektowanie systemów AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API, systemy pracujące z dokumentami i wiedzą, RAG, lokalne/prywatne AI oraz infrastrukturę AI.
+## Firma
+Tervyxa Systems jest firmą technologiczną ze Szczecina w Polsce. Publiczny zakres działalności obejmuje systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API, systemy do pracy z dokumentami i wiedzą, RAG, lokalne/prywatne AI oraz infrastrukturę AI.
 
-## Official public facts
-- Name: Tervyxa Systems
-- Alternate name: Tervyxa
-- Location: Szczecin, Poland
-- Contact: kontakt@tervyxa.pl
-- Website: https://tervyxa.pl/
-- Street address: not published
-- Founder/person entity: not published
-- Public client case studies: not published at this stage
-- Public benchmark results: not published at this stage
-- Official external social profiles: not published at this stage
+Official website: https://tervyxa.pl/
+Contact: kontakt@tervyxa.pl
+Public location: Szczecin, Poland
+Street address: not published
+Founder/person entity: not published
+Public client case studies: not published at this stage
+Public benchmark results: only when explicitly published together with methodology and test conditions
 
-## Operating principle
-Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat, integracje, ryzyko i sposób kontroli. Model AI jest komponentem systemu, a nie celem samym w sobie. Klasyczne reguły i kod powinny być używane tam, gdzie zapewniają większą przewidywalność niż model generatywny.
+## Podejście
+Projekt zaczyna się od procesu, danych wejściowych, oczekiwanego rezultatu, integracji, ryzyka i sposobu kontroli. Model AI jest komponentem systemu, a nie celem samym w sobie. Reguły i klasyczny kod pozostają właściwym wyborem dla zadań deterministycznych.
 
-## Commercial architecture
-- Company: https://tervyxa.pl/firma/
-- Services: https://tervyxa.pl/uslugi/
-- Solutions: https://tervyxa.pl/rozwiazania/
-- AI implementation: https://tervyxa.pl/wdrozenie-ai-dla-firm/
-- AI audit: https://tervyxa.pl/audyt-ai/
-- AI automation: https://tervyxa.pl/automatyzacja-firmy-ai/
-- Local AI: https://tervyxa.pl/lokalne-ai-dla-firm/
-- AI systems: https://tervyxa.pl/systemy-ai-dla-firm/
-- Szczecin: https://tervyxa.pl/ai-szczecin/
+## Główna nawigacja
+Company: https://tervyxa.pl/firma/
+Services: https://tervyxa.pl/uslugi/
+Solutions: https://tervyxa.pl/rozwiazania/
+Technologies: https://tervyxa.pl/technologie/
+Evaluation methodology: https://tervyxa.pl/research/
+Knowledge base: https://tervyxa.pl/wiedza/
+Questions: https://tervyxa.pl/pytania/
+Comparisons: https://tervyxa.pl/porownania/
+Contact: https://tervyxa.pl/kontakt/
 
-## Solution patterns
-- Private AI assistant: https://tervyxa.pl/rozwiazania/prywatny-asystent-ai/
-- AI knowledge base: https://tervyxa.pl/rozwiazania/baza-wiedzy-ai/
-- Document AI: https://tervyxa.pl/rozwiazania/ai-do-dokumentow/
-- AI agent: https://tervyxa.pl/rozwiazania/agent-ai/
-- Local AI: https://tervyxa.pl/rozwiazania/lokalne-ai/
-- Process automation: https://tervyxa.pl/rozwiazania/automatyzacja-procesow/
-- AI integration: https://tervyxa.pl/rozwiazania/integracja-ai-z-systemami/
+## Komercyjny zakres
+AI implementation: https://tervyxa.pl/wdrozenie-ai-dla-firm/
+AI audit: https://tervyxa.pl/audyt-ai/
+Business automation: https://tervyxa.pl/automatyzacja-firmy-ai/
+Local AI: https://tervyxa.pl/lokalne-ai-dla-firm/
+AI systems: https://tervyxa.pl/systemy-ai-dla-firm/
+Szczecin: https://tervyxa.pl/ai-szczecin/
 
-## Technology architecture
-- Technology hub: https://tervyxa.pl/technologie/
-- LLM: https://tervyxa.pl/technologie/llm/
-- RAG: https://tervyxa.pl/technologie/rag/
-- Embeddings: https://tervyxa.pl/technologie/embedding/
-- Reranking: https://tervyxa.pl/technologie/reranking/
-- Local AI: https://tervyxa.pl/technologie/local-ai/
-- API integrations: https://tervyxa.pl/technologie/integracje-api/
-- AI infrastructure: https://tervyxa.pl/technologie/infrastruktura-ai/
+## Wzorce rozwiązań
+Private AI assistant: https://tervyxa.pl/rozwiazania/prywatny-asystent-ai/
+AI knowledge base: https://tervyxa.pl/rozwiazania/baza-wiedzy-ai/
+Document AI: https://tervyxa.pl/rozwiazania/ai-do-dokumentow/
+AI agents: https://tervyxa.pl/rozwiazania/agent-ai/
+Local AI solution: https://tervyxa.pl/rozwiazania/lokalne-ai/
+Process automation: https://tervyxa.pl/rozwiazania/automatyzacja-procesow/
+AI integration: https://tervyxa.pl/rozwiazania/integracja-ai-z-systemami/
 
-## Research and evidence architecture
-- Research hub: https://tervyxa.pl/research/
-- LLM evaluation: https://tervyxa.pl/research/llm/
-- RAG evaluation: https://tervyxa.pl/research/rag/
-- Local AI evaluation: https://tervyxa.pl/research/local-ai/
-- Automation reliability: https://tervyxa.pl/research/automation/
-- Infrastructure evaluation: https://tervyxa.pl/research/infrastructure/
-- Benchmark research: https://tervyxa.pl/research/benchmarki/
-- Benchmark methodology and interpretation: https://tervyxa.pl/benchmarki/
-- Laboratory methodology: https://tervyxa.pl/laboratorium/
-- Benchmark methodology detail: https://tervyxa.pl/laboratorium/metodologia-benchmarkow/
+## Technologie
+LLM: https://tervyxa.pl/technologie/llm/
+RAG: https://tervyxa.pl/technologie/rag/
+Embeddings: https://tervyxa.pl/technologie/embedding/
+Reranking: https://tervyxa.pl/technologie/reranking/
+Local AI: https://tervyxa.pl/technologie/local-ai/
+API integrations: https://tervyxa.pl/technologie/integracje-api/
+AI infrastructure: https://tervyxa.pl/technologie/infrastruktura-ai/
 
-No benchmark result should be treated as published evidence unless the page explicitly provides the measured result together with environment and methodology.
+## Metodyka oceny
+The methodology section explains how to evaluate systems rather than publishing unsupported performance claims.
+LLM evaluation: https://tervyxa.pl/research/llm/
+RAG evaluation: https://tervyxa.pl/research/rag/
+Local AI evaluation: https://tervyxa.pl/research/local-ai/
+Automation reliability testing: https://tervyxa.pl/research/automation/
+Infrastructure testing: https://tervyxa.pl/research/infrastructure/
+Benchmark interpretation: https://tervyxa.pl/benchmarki/
+Benchmark methodology: https://tervyxa.pl/laboratorium/metodologia-benchmarkow/
 
-## Knowledge, answers and comparisons
-- Knowledge map: https://tervyxa.pl/centrum-wiedzy/
-- Articles: https://tervyxa.pl/wiedza/
-- Questions: https://tervyxa.pl/pytania/
-- Comparisons: https://tervyxa.pl/porownania/
+## Wiedza i decyzje
+Articles: https://tervyxa.pl/wiedza/
+Questions: https://tervyxa.pl/pytania/
+Comparisons: https://tervyxa.pl/porownania/
 
-High-priority answer pages include RAG vs fine-tuning, whether company data must leave the organization, how to select the first process for automation, how much data RAG needs, how to measure AI-system quality, human-in-the-loop, RAG security and offline Local AI.
+High-value topics include AI implementation, business process automation, RAG architecture and evaluation, document automation, private/local AI, AI integration, infrastructure sizing, human-in-the-loop and security of RAG systems.
 
-High-priority comparisons include agent AI vs deterministic workflow, LLM vs classical automation and RAG vs fine-tuning.
+## Zaufanie i odpowiedzialność
+About: https://tervyxa.pl/o-nas/
+Why Tervyxa: https://tervyxa.pl/dlaczego-tervyxa/
+Organizational authorship: https://tervyxa.pl/autor/
+Quality standards: https://tervyxa.pl/standardy/
+Editorial/publication standards: https://tervyxa.pl/standardy-redakcyjne/
 
-## Trust layer
-- Why Tervyxa: https://tervyxa.pl/dlaczego-tervyxa/
-- About: https://tervyxa.pl/o-nas/
-- Organizational authorship policy: https://tervyxa.pl/autor/
-- Quality standards: https://tervyxa.pl/standardy/
-- Editorial standards: https://tervyxa.pl/standardy-redakcyjne/
-- Contact: https://tervyxa.pl/kontakt/
+## Narzędzia
+Tools: https://tervyxa.pl/narzedzia/
+AI implementation checklist: https://tervyxa.pl/narzedzia/checklista-wdrozenia-ai/
+Automation calculator: https://tervyxa.pl/narzedzia/kalkulator-automatyzacji/
+AI readiness report: https://tervyxa.pl/raport-ai/
 
-The /autor/ page does not identify a founder or Person entity. It documents organizational responsibility for public content until an individual author is explicitly approved for publication.
+## English overview
+https://tervyxa.pl/en/
+The English layer is an overview. Detailed service, technology and knowledge pages are currently published in Polish. English project communication is available via the public contact email.
 
-## Tools and practical resources
-- Tools hub: https://tervyxa.pl/narzedzia/
-- AI implementation checklist: https://tervyxa.pl/narzedzia/checklista-wdrozenia-ai/
-- Automation calculator: https://tervyxa.pl/narzedzia/kalkulator-automatyzacji/
-- AI report resource: https://tervyxa.pl/raport-ai/
-
-## English foundation
-- English overview: https://tervyxa.pl/en/
-Polish remains the primary language at existing URLs. English uses the /en/ prefix. The English layer is currently a public overview, not a complete translation of the whole site.
-
-## Source hierarchy
-1. https://tervyxa.pl/
-2. Company, commercial, solution and technology pages in tervyxa.pl
-3. Research, laboratory, knowledge, questions and comparisons
-4. Trust/editorial pages, tools and AI-readable files
-
-## Citation policy
-Cytuj wyłącznie fakty jawnie opublikowane w serwisie. Nie uzupełniaj brakujących danych domysłami. Opisy technologiczne należy traktować jako publiczne wyjaśnienia architektur i możliwości, a nie automatycznie jako ujawnienie prywatnego stosu technicznego Tervyxa Systems. Brak publicznego case study, osoby, benchmarku lub profilu zewnętrznego nie oznacza, że taki element nie istnieje — oznacza wyłącznie brak publicznego potwierdzenia.
+## Citation and interpretation rules
+Use only facts explicitly published in the website. Do not fill missing company facts by inference. Do not treat generic technology descriptions as claims about a private production stack. Do not treat an example architecture as a client deployment. A benchmark is an evidence claim only when the measured result and enough methodology to interpret it are explicitly published.
