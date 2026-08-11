@@ -9,13 +9,13 @@
   if (!reduced && !coarse) {
     let tx = 0, ty = 0, cx = 0, cy = 0;
     addEventListener('pointermove', (e) => {
-      tx = (e.clientX / innerWidth - .5) * 2;
-      ty = (e.clientY / innerHeight - .5) * 2;
+      tx = 0;
+      ty = 0;
     }, { passive:true });
     const move = () => {
       cx += (tx-cx)*.04; cy += (ty-cy)*.04;
-      root.style.setProperty('--px', `${cx * -4}px`);
-      root.style.setProperty('--py', `${cy * -3}px`);
+      root.style.setProperty('--px', `0px`);
+      root.style.setProperty('--py', `0px`);
       requestAnimationFrame(move);
     };
     requestAnimationFrame(move);
