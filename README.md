@@ -68,3 +68,13 @@ Baza wiedzy `/wiedza/` zawiera 10 powiązanych materiałów o:
 
 ## Granica projektu
 Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanały kontaktu, szczegółowe case studies i rozbudowana architektura aplikacyjna zostaną wdrożone w main website.
+
+
+## SEO Authority Upgrade v3 — checkpoint 2026-08-11
+- responsive hero WebP: 640 / 1280 / 1920 / 2560 px, z zachowaniem 8K PNG jako master/fallback,
+- osobny OG image 1200×630,
+- trust layer: `/o-nas/`, `/standardy-redakcyjne/`, `/laboratorium/`,
+- 10 artykułów wiedzy rozszerzonych o kryteria decyzji, ograniczenia, checklisty i kontrolę jakości,
+- jawna polityka: brak fikcyjnych klientów, wdrożeń i benchmarków,
+- wewnętrzne linkowanie między artykułami, filarami i stronami trust,
+- sitemap rozszerzona o pełny klaster v3.
