@@ -42,7 +42,7 @@ Existing solution pages were normalized for:
 - process automation,
 - integration of AI with existing systems.
 
-The solution contract now covers canonical metadata, social metadata, structured data, breadcrumbs/navigation, architecture, decision criteria, limitations/control and relevant internal links.
+The solution contract covers canonical metadata, social metadata, structured data, breadcrumbs/navigation, architecture, decision criteria, limitations/control and relevant internal links.
 
 ### Industry Authority
 
@@ -102,18 +102,19 @@ Responsive assets remain available at 640, 1280, 1920 and 2560 widths, plus `ass
 
 ### GitHub Pages gate
 
-PASS before this documentation-only freeze commit:
+PASS:
 
 - source: `main` / `/`,
 - custom domain: `tervyxa.pl`,
 - HTTPS certificate: approved,
 - HTTPS enforced: true,
-- Pages build for content HEAD `3102763a89af3b2816e8fbb1e43527323f60b83b`: `built`, error `null`.
-
-A final Pages build must also be checked for the commit that updates this document before calling the repository formally frozen.
+- Pages build `1145924525` for content HEAD `3102763a89af3b2816e8fbb1e43527323f60b83b`: `built`, error `null`,
+- freeze-check build `1145929389` for documentation checkpoint `14022760054c0928c756b76a0e8c016be5d5b484`: `built`, error `null`.
 
 ## Final verdict state
 
-`REBUILD_COMPLETE / FREEZE_GATE_PENDING_FINAL_PAGES_BUILD`
+`PASS / REBUILD_COMPLETE / FORMALLY_FROZEN`
 
-The content and repository normalization are complete for the temporary prewebsite scope. Do not add new URL categories or broaden the site into the future full Tervyxa website during freeze. The only remaining formal gate is a successful GitHub Pages build for this final documentation commit.
+The temporary prewebsite rebuild is complete within the approved scope. Do not add new URL categories or broaden this repository into the future full Tervyxa Systems website unless the freeze is explicitly reopened.
+
+Future changes to this temporary site should be limited to verified corrections, approved public facts, security/accessibility fixes or deliberate content updates. Any larger architecture belongs to the separate full Tervyxa Systems website project.
