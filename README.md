@@ -1,6 +1,6 @@
 # Tervyxa Systems — publiczna strona startowa v2
 
-Oficjalny jednostronicowy serwis startowy Tervyxa Systems dla domeny [https://tervyxa.pl/](https://tervyxa.pl/).
+Oficjalny serwis startowy Tervyxa Systems dla domeny [https://tervyxa.pl/](https://tervyxa.pl/).
 
 **Tervyxa Systems** to polska firma technologiczna rozwijająca systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API i infrastrukturę AI.
 
@@ -11,12 +11,32 @@ Ta witryna pozostaje stroną tymczasową przed publikacją pełnego serwisu Terv
 - dostarczać Google, Bing i systemom AI spójny public truth,
 - zachować szybki, statyczny i responsywny frontend bez ciężkiego JavaScript.
 
+## Topical authority cluster
+Publiczna warstwa została rozszerzona o cztery strony filarowe:
+- `/systemy-ai-dla-firm/`,
+- `/automatyzacja-procesow/`,
+- `/ai-do-dokumentow/`,
+- `/lokalne-ai-dla-firm/`.
+
+Baza wiedzy `/wiedza/` zawiera 10 powiązanych materiałów o:
+- wdrażaniu AI w firmie,
+- lokalnym AI i chmurze,
+- automatyzacji dokumentów,
+- RAG i bazach wiedzy,
+- AI w małej firmie,
+- integracji AI z istniejącymi systemami,
+- prywatnym AI,
+- infrastrukturze CPU/GPU,
+- dedykowanym oprogramowaniu,
+- mapowaniu i automatyzacji procesów.
+
 ## Priorytetowe tematy wyszukiwania
 - systemy AI dla firm,
 - automatyzacja procesów biznesowych,
 - wdrożenia AI w firmie,
 - AI do dokumentów i wiedzy firmowej,
-- lokalne AI,
+- lokalne i prywatne AI,
+- RAG dla firm,
 - integracje API i przepływy danych,
 - dedykowane oprogramowanie dla firm,
 - infrastruktura AI.
@@ -33,18 +53,18 @@ Ta witryna pozostaje stroną tymczasową przed publikacją pełnego serwisu Terv
 - statyczny HTML + CSS,
 - brak parallaxu i ciężkiego runtime JS,
 - responsive desktop / tablet / mobile,
-- SEO: title, description, canonical, robots, sitemap, semantyczne nagłówki,
-- AEO: widoczna sekcja pytań i odpowiedzi,
-- GEO / AI Search: public truth, jednoznaczne definicje i samodzielne fragmenty odpowiedzi,
-- structured data: Organization, WebSite, WebPage, ImageObject, Service i FAQPage,
+- canonical URL na każdej publicznej stronie,
+- XML sitemap obejmująca cały klaster,
+- crawlable internal linking pomiędzy stroną główną, filarami i bazą wiedzy,
+- structured data: Organization, WebSite, WebPage, ImageObject, Service, FAQPage, Article i BreadcrumbList,
+- IndexNow dla wszystkich kanonicznych URL-i,
 - brak fikcyjnych klientów, wyników, statystyk i danych kontaktowych.
 
-## Walidacja v2
-- JSON-LD: syntaktycznie poprawny,
-- manifest: poprawny JSON,
-- sitemap: poprawny XML z primary image,
-- IndexNow: zgłoszenie aktualizacji zakończone sukcesem,
-- GitHub Pages: finalny build ma być jedynym gate'em publikacji po tym checkpointcie.
+## Walidacja
+- Google Search Console: domena zweryfikowana, sitemap przesłana, live URL indexable,
+- Bing Webmaster Tools: domena zaimportowana, sitemap przesłana, live URL indexable, SEO/GEO bez wykrytych błędów,
+- IndexNow: wszystkie aktualne kanoniczne URL-e wysłane,
+- finalnym gate'em publikacji jest udany build GitHub Pages po pełnym checkpointcie.
 
 ## Granica projektu
-Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanały kontaktu, szczegółowe podstrony usług i rozbudowana architektura informacji zostaną wdrożone w main website.
+Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanały kontaktu, szczegółowe case studies i rozbudowana architektura aplikacyjna zostaną wdrożone w main website.
