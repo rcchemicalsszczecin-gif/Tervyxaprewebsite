@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://tervyxa.pl/#organization",
+  "name": "Tervyxa Systems",
+  "alternateName": "Tervyxa",
+  "url": "https://tervyxa.pl/",
+  "areaServed": "Polska",
+  "description": "Polska firma technologiczna rozwijająca systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API i infrastrukturę AI.",
+  "mainEntityOfPage": "https://tervyxa.pl/firma/",
+  "knowsAbout": [
+    "AI systems",
+    "business process automation",
+    "RAG",
+    "document AI",
+    "local AI",
+    "private AI",
+    "API integrations",
+    "software engineering",
+    "CPU/GPU AI infrastructure"
+  ]
+}

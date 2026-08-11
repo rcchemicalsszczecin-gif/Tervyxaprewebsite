@@ -93,3 +93,12 @@ Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanał
 - repo-side monitoring i off-site authority plan.
 
 Nie dodano fikcyjnego Person schema, sameAs ani danych kontaktowych — te elementy wymagają zatwierdzonych publicznych danych.
+
+## SEO / GEO / AEO V5 — final implementation 2026-08-11
+- commercial intent: `/uslugi/`, `/wdrozenie-ai-dla-firm/`, `/automatyzacja-firmy-ai/`, `/audyt-ai/`;
+- entity / trust: `/firma/`, `/o-nas/`, `/autor/`, `/standardy-redakcyjne/`, `/kontakt/`, `entity.json`;
+- authority: `/technologie/`, `/research/`, `/laboratorium/`, `/wiedza/`;
+- AEO: `/pytania/` plus dedicated answer pages and `/porownania/`;
+- lead value: `/narzedzia/`, calculator, checklist and `/raport-ai/`;
+- AI-readable: `llms.txt`, `llms-full.txt`;
+- no fabricated clients, testimonials, contacts, certifications or benchmark results.
