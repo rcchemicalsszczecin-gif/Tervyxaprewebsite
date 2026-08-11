@@ -18,6 +18,7 @@
 .project-checklist span:nth-last-child(-n+2),.project-checklist strong:nth-last-child(-n+2){border-bottom:0}
 .project-checklist span{color:rgba(123,216,255,.48);font-size:8px;font-weight:850;letter-spacing:.18em;border-right:1px solid rgba(126,216,255,.1)}
 .project-checklist strong{font-size:12px;line-height:1.35}
+.areas-panel .area>span{display:none}
 
 @media(hover:hover) and (pointer:fine){
   .problem-card{transition:transform .18s ease,border-color .18s ease,background-color .18s ease}
