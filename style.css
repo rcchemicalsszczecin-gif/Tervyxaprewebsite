@@ -88,8 +88,8 @@ details p{margin:0;padding:0 22px 22px;max-width:930px;font-size:13.5px}
 .back-top{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 16px;border:1px solid rgba(126,216,255,.18);border-radius:999px;color:rgba(225,244,252,.72);font-size:9px;font-weight:850;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
 .site-footer{width:min(1180px,calc(100% - 48px));min-height:96px;margin:0 auto;padding:28px 0 max(28px,env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:24px;color:rgba(203,229,241,.34);font-size:8px;font-weight:700;letter-spacing:.12em}
 
-.entrance{animation:enter .72s cubic-bezier(.22,.75,.24,1) both}
-.entrance-1{animation-delay:.06s}.entrance-2{animation-delay:.15s}.entrance-3{animation-delay:.24s}.entrance-4{animation-delay:.33s}
+.entrance{animation:enter .62s ease both}
+.entrance-1{animation-delay:.05s}.entrance-2{animation-delay:.12s}.entrance-3{animation-delay:.19s}.entrance-4{animation-delay:.26s}
 
 @media(hover:hover) and (pointer:fine){
   .area:hover{transform:translateY(-2px);border-color:var(--line-strong);background-color:rgba(6,29,49,.52)}
@@ -196,6 +196,6 @@ details p{margin:0;padding:0 22px 22px;max-width:930px;font-size:13.5px}
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-delay:0ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
 }
 
-@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes enter{from{opacity:0}to{opacity:1}}
 @keyframes sheen{0%,24%{transform:translateX(-52%);opacity:0}38%{opacity:.14}54%{transform:translateX(52%);opacity:.1}68%,100%{transform:translateX(52%);opacity:0}}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.76)}}
