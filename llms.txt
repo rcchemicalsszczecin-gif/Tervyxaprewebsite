@@ -16,7 +16,7 @@ Tervyxa Systems to firma technologiczna ze Szczecina w Polsce. Publiczny zakres 
 - https://tervyxa.pl/rozwiazania/
 - https://tervyxa.pl/technologie/
 - https://tervyxa.pl/research/
-- https://tervyxa.pl/centrum-wiedzy/
+- https://tervyxa.pl/wiedza/
 - https://tervyxa.pl/pytania/
 - https://tervyxa.pl/porownania/
 - https://tervyxa.pl/kontakt/
@@ -48,18 +48,18 @@ Tervyxa Systems to firma technologiczna ze Szczecina w Polsce. Publiczny zakres 
 - https://tervyxa.pl/technologie/infrastruktura-ai/
 
 ## Research
+- https://tervyxa.pl/research/
 - https://tervyxa.pl/research/llm/
 - https://tervyxa.pl/research/rag/
 - https://tervyxa.pl/research/local-ai/
 - https://tervyxa.pl/research/automation/
 - https://tervyxa.pl/research/infrastructure/
 - https://tervyxa.pl/research/benchmarki/
-- https://tervyxa.pl/benchmarki/
 
-## Answer and comparison engine
+## Knowledge, answers and comparisons
+- https://tervyxa.pl/wiedza/
 - https://tervyxa.pl/pytania/
 - https://tervyxa.pl/porownania/
-- https://tervyxa.pl/wiedza/
 
 ## English foundation
 - https://tervyxa.pl/en/
