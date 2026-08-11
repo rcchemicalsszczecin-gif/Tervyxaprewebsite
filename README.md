@@ -1,13 +1,20 @@
-# Tervyxa Systems — strona startowa
+# Tervyxa Systems — publiczna strona startowa
 
-Tymczasowy publiczny serwis Tervyxa Systems dla domeny `tervyxa.pl`.
+Jednostronicowy serwis startowy dla domeny `tervyxa.pl`.
 
-Zakres komunikacji publicznej:
+## Zakres publiczny
 - systemy AI,
-- automatyzacja,
-- oprogramowanie,
-- infrastruktura.
+- automatyzacja procesów,
+- dedykowane oprogramowanie,
+- infrastruktura technologiczna.
 
-Strona jest hostowana przez GitHub Pages i korzysta z domeny `tervyxa.pl`.
+## Założenia
+- język publiczny: polski,
+- hostowanie: GitHub Pages,
+- domena kanoniczna: `https://tervyxa.pl/`,
+- statyczne hero bez parallaxu i ciężkiego JavaScript,
+- responsywny układ dla desktopu, tabletów i telefonów,
+- warstwa SEO + AEO + GEO oparta na klasycznych fundamentach SEO, jasnej treści, public truth i danych strukturalnych,
+- brak fikcyjnych statystyk, klientów i wyników.
 
-Aktualna wersja wykorzystuje pełny artwork Tervyxa Systems jako główną scenę hero.
+Strona pozostaje wersją startową przed publikacją pełnego serwisu Tervyxa Systems.
