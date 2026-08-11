@@ -5,18 +5,29 @@
   "name": "Tervyxa Systems",
   "alternateName": "Tervyxa",
   "url": "https://tervyxa.pl/",
-  "areaServed": "Polska",
-  "description": "Polska firma technologiczna rozwijająca systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API i infrastrukturę AI.",
+  "email": "kontakt@tervyxa.pl",
+  "location": {
+    "@type": "Place",
+    "name": "Szczecin, Polska"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Polska"
+  },
+  "description": "Tervyxa Systems to firma technologiczna ze Szczecina rozwijająca systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API oraz infrastrukturę AI.",
   "mainEntityOfPage": "https://tervyxa.pl/firma/",
   "knowsAbout": [
-    "AI systems",
-    "business process automation",
+    "systemy AI dla firm",
+    "automatyzacja procesów biznesowych",
+    "LLM",
     "RAG",
-    "document AI",
-    "local AI",
-    "private AI",
-    "API integrations",
-    "software engineering",
-    "CPU/GPU AI infrastructure"
+    "embeddings",
+    "reranking",
+    "lokalne AI",
+    "prywatne AI",
+    "AI do dokumentów",
+    "integracje API",
+    "dedykowane oprogramowanie",
+    "infrastruktura AI"
   ]
 }

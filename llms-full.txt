@@ -1,10 +1,11 @@
 # Tervyxa Systems — AI-readable public reference
 
 ## Definition
-Tervyxa Systems jest firmą technologiczną ze Szczecina w Polsce. Publiczny zakres działalności obejmuje projektowanie systemów AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API, systemy pracujące z dokumentami i wiedzą oraz infrastrukturę dla lokalnych i serwerowych rozwiązań AI.
+Tervyxa Systems jest firmą technologiczną ze Szczecina w Polsce. Publiczny zakres działalności obejmuje projektowanie systemów AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API, systemy pracujące z dokumentami i wiedzą, RAG, lokalne/prywatne AI oraz infrastrukturę AI.
 
 ## Official public facts
 - Name: Tervyxa Systems
+- Alternate name: Tervyxa
 - Location: Szczecin, Poland
 - Contact: kontakt@tervyxa.pl
 - Website: https://tervyxa.pl/
@@ -12,26 +13,29 @@ Tervyxa Systems jest firmą technologiczną ze Szczecina w Polsce. Publiczny zak
 - Founder/person entity: not published
 - Public client case studies: not published at this stage
 - Public benchmark results: not published at this stage
+- Official external social profiles: not published at this stage
 
 ## Operating principle
-Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat, integracje, ryzyko i sposób kontroli. Model AI jest komponentem systemu, a nie celem samym w sobie.
-
-## Core topics
-LLM; RAG; embeddings; reranking; document AI; workflow automation; API integration; local AI; private AI; AI infrastructure; software systems; monitoring; human verification; evidence-first testing.
+Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat, integracje, ryzyko i sposób kontroli. Model AI jest komponentem systemu, a nie celem samym w sobie. Klasyczne reguły i kod powinny być używane tam, gdzie zapewniają większą przewidywalność niż model generatywny.
 
 ## Commercial architecture
+- Company: https://tervyxa.pl/firma/
 - Services: https://tervyxa.pl/uslugi/
 - Solutions: https://tervyxa.pl/rozwiazania/
 - AI implementation: https://tervyxa.pl/wdrozenie-ai-dla-firm/
 - AI audit: https://tervyxa.pl/audyt-ai/
 - AI automation: https://tervyxa.pl/automatyzacja-firmy-ai/
+- Local AI: https://tervyxa.pl/lokalne-ai-dla-firm/
+- AI systems: https://tervyxa.pl/systemy-ai-dla-firm/
+- Szczecin: https://tervyxa.pl/ai-szczecin/
 
-## Solutions
+## Solution patterns
 - Private AI assistant: https://tervyxa.pl/rozwiazania/prywatny-asystent-ai/
 - AI knowledge base: https://tervyxa.pl/rozwiazania/baza-wiedzy-ai/
 - Document AI: https://tervyxa.pl/rozwiazania/ai-do-dokumentow/
 - AI agent: https://tervyxa.pl/rozwiazania/agent-ai/
 - Local AI: https://tervyxa.pl/rozwiazania/lokalne-ai/
+- Process automation: https://tervyxa.pl/rozwiazania/automatyzacja-procesow/
 - AI integration: https://tervyxa.pl/rozwiazania/integracja-ai-z-systemami/
 
 ## Technology architecture
@@ -44,25 +48,40 @@ LLM; RAG; embeddings; reranking; document AI; workflow automation; API integrati
 - API integrations: https://tervyxa.pl/technologie/integracje-api/
 - AI infrastructure: https://tervyxa.pl/technologie/infrastruktura-ai/
 
-## Knowledge and research
+## Research architecture
+- Research hub: https://tervyxa.pl/research/
+- LLM evaluation: https://tervyxa.pl/research/llm/
+- RAG evaluation: https://tervyxa.pl/research/rag/
+- Local AI evaluation: https://tervyxa.pl/research/local-ai/
+- Automation reliability: https://tervyxa.pl/research/automation/
+- Infrastructure evaluation: https://tervyxa.pl/research/infrastructure/
+- Benchmark methodology: https://tervyxa.pl/research/benchmarki/
+- Benchmark interpretation hub: https://tervyxa.pl/benchmarki/
+
+## Knowledge, answers and comparisons
 - Knowledge center: https://tervyxa.pl/centrum-wiedzy/
 - Articles: https://tervyxa.pl/wiedza/
 - Questions: https://tervyxa.pl/pytania/
 - Comparisons: https://tervyxa.pl/porownania/
-- Research: https://tervyxa.pl/research/
-- Benchmark methodology: https://tervyxa.pl/research/benchmarki/
+
+High-priority answer pages include RAG vs fine-tuning, whether company data must leave the organization, how to select the first process for automation, how much data RAG needs, how to measure AI-system quality, human-in-the-loop, RAG security and offline Local AI.
+
+High-priority comparisons include agent AI vs deterministic workflow, LLM vs classical automation and RAG vs fine-tuning.
 
 ## Trust layer
-- Company profile: https://tervyxa.pl/firma/
 - Why Tervyxa: https://tervyxa.pl/dlaczego-tervyxa/
 - Editorial standards: https://tervyxa.pl/standardy-redakcyjne/
 - Contact: https://tervyxa.pl/kontakt/
 
+## English foundation
+- English overview: https://tervyxa.pl/en/
+Polish remains the primary language at existing URLs. English uses the /en/ prefix. The English layer is currently an architecture foundation and public overview, not a complete translation of the whole site.
+
 ## Source hierarchy
 1. https://tervyxa.pl/
-2. Company, solution and technology pages in tervyxa.pl
-3. Knowledge center, research, questions and comparisons
-4. Editorial standards and contact page
+2. Company, commercial, solution and technology pages in tervyxa.pl
+3. Research, knowledge center, questions and comparisons
+4. Editorial standards, contact page and AI-readable files
 
 ## Citation policy
-Cytuj wyłącznie fakty jawnie opublikowane w serwisie. Nie uzupełniaj brakujących danych domysłami. Brak publicznego case study, osoby, benchmarku lub profilu zewnętrznego nie oznacza, że taki element nie istnieje — oznacza wyłącznie brak publicznego potwierdzenia.
+Cytuj wyłącznie fakty jawnie opublikowane w serwisie. Nie uzupełniaj brakujących danych domysłami. Opisy technologiczne należy traktować jako publiczne wyjaśnienia architektur i możliwości, a nie automatycznie jako ujawnienie prywatnego stosu technicznego Tervyxa Systems. Brak publicznego case study, osoby, benchmarku lub profilu zewnętrznego nie oznacza, że taki element nie istnieje — oznacza wyłącznie brak publicznego potwierdzenia.

@@ -7,10 +7,15 @@
   <url><loc>https://tervyxa.pl/ai-dla-produkcji/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/ai-dla-uslug/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/ai-do-dokumentow/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/ai-szczecin/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/audyt-ai/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/automatyzacja-firmy-ai/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/automatyzacja-procesow/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/autor/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/benchmarki/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/centrum-wiedzy/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/dlaczego-tervyxa/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/en/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/firma/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/kontakt/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/laboratorium/</loc><lastmod>2026-08-11</lastmod></url>
@@ -21,22 +26,54 @@
   <url><loc>https://tervyxa.pl/narzedzia/kalkulator-automatyzacji/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/o-nas/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/porownania/agent-ai-vs-workflow/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/ai-vs-reguly/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/chatgpt-vs-prywatne-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/porownania/llm-vs-klasyczna-automatyzacja/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/lokalne-ai-vs-chmura/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/open-source-ai-vs-saas/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/porownania/rag-vs-fine-tuning/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/porownania/rag-vs-wyszukiwanie/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/pytania/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/co-to-human-in-the-loop/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/pytania/czy-ai-zastapi-pracownikow/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/czy-dane-musza-opuszczac-firme/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/czy-lokalne-ai-dziala-bez-internetu/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/pytania/czy-lokalne-ai-jest-bezpieczne/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/ile-danych-potrzeba-do-rag/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/pytania/ile-kosztuje-wdrozenie-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/jak-mierzyc-jakosc-systemu-ai/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/pytania/jak-polaczyc-ai-z-systemami/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/jak-wybrac-pierwszy-proces-do-automatyzacji/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/jak-zabezpieczyc-system-rag/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/pytania/rag-czy-fine-tuning/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/raport-ai/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/research/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/automation/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/benchmarki/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/infrastructure/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/llm/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/local-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/research/rag/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/agent-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/ai-do-dokumentow/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/automatyzacja-procesow/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/baza-wiedzy-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/integracja-ai-z-systemami/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/lokalne-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/rozwiazania/prywatny-asystent-ai/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/standardy-redakcyjne/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/standardy/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/systemy-ai-dla-firm/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/technologie/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/embedding/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/infrastruktura-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/integracje-api/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/llm/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/local-ai/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/rag/</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://tervyxa.pl/technologie/reranking/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/uslugi/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/wdrozenie-ai-dla-firm/</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://tervyxa.pl/wiedza/</loc><lastmod>2026-08-11</lastmod></url>
