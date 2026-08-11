@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#010611">
+  <meta name="color-scheme" content="dark">
+  <title>Tervyxa Systems</title>
+  <meta name="description" content="Tervyxa Systems — AI Systems, Automation, Software i Infrastructure.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://tervyxa.pl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tervyxa Systems">
+  <meta property="og:description" content="AI Systems · Automation · Software · Infrastructure">
+  <meta property="og:url" content="https://tervyxa.pl/">
+  <meta property="og:image" content="https://tervyxa.pl/assets/tervyxa-systems.webp">
+  <link rel="preload" href="assets/tervyxa-systems.webp" as="image" type="image/webp">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene" id="scene">
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="brand-art" role="img" aria-label="Tervyxa Systems"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <canvas id="stars" class="stars" aria-hidden="true"></canvas>
+
+    <header class="glass topbar">
+      <div class="identity"><i aria-hidden="true"></i><span>TERVYXA SYSTEMS</span></div>
+      <div class="systemline">PUBLIC WEB INTERFACE // TERVYXA.PL</div>
+    </header>
+
+    <section class="glass dock" aria-label="Tervyxa Systems — status serwisu">
+      <div class="dock-main">
+        <span class="micro">SYSTEMS ENGINEERING</span>
+        <h1>AI SYSTEMS <b>·</b> AUTOMATION <b>·</b> SOFTWARE <b>·</b> INFRASTRUCTURE</h1>
+        <p>Pełna wersja serwisu Tervyxa Systems jest obecnie przygotowywana do publikacji.</p>
+      </div>
+      <div class="dock-state">
+        <span>PLATFORM STATUS</span>
+        <strong>IN PREPARATION</strong>
+        <i aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <footer class="footer"><span>© 2026 Tervyxa Systems</span><span>tervyxa.pl</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
