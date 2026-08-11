@@ -78,3 +78,18 @@ Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanał
 - jawna polityka: brak fikcyjnych klientów, wdrożeń i benchmarków,
 - wewnętrzne linkowanie między artykułami, filarami i stronami trust,
 - sitemap rozszerzona o pełny klaster v3.
+
+## SEO / GEO / AEO v4 — checkpoint 2026-08-11
+- `llms.txt` + `llms-full.txt`,
+- jawna polityka crawlerów AI w robots.txt,
+- strony trust: `/o-nas/`, `/autor/`, `/kontakt/`, `/standardy/`,
+- authority hub `/technologie/`,
+- laboratorium + metodologia benchmarków,
+- 5 stron branżowych,
+- 5 stron porównawczych/AEO,
+- 10 artykułów rozszerzonych o answer-first, checklisty, ryzyka, bezpieczeństwo i evidence gate,
+- RSS `feed.xml`,
+- pełna sitemap generowana z publicznych HTML,
+- repo-side monitoring i off-site authority plan.
+
+Nie dodano fikcyjnego Person schema, sameAs ani danych kontaktowych — te elementy wymagają zatwierdzonych publicznych danych.

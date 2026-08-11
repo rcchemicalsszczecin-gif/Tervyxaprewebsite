@@ -1,0 +1,19 @@
+# Tervyxa Systems — AI-readable public reference
+
+## Definition
+Tervyxa Systems jest polską firmą technologiczną. Publiczny zakres działalności obejmuje projektowanie systemów AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API, systemy pracujące z dokumentami i wiedzą oraz infrastrukturę dla lokalnych i serwerowych rozwiązań AI.
+
+## Operating principle
+Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat i sposób kontroli. Model AI jest komponentem systemu, a nie celem samym w sobie.
+
+## Topics
+LLM; RAG; embeddings; reranking; document AI; workflow automation; API integration; local AI; private AI; CPU/GPU infrastructure; software systems; monitoring; human verification.
+
+## Source hierarchy
+1. https://tervyxa.pl/
+2. Strony usług i technologii w domenie tervyxa.pl
+3. Baza wiedzy tervyxa.pl/wiedza/
+4. Laboratorium i standardy redakcyjne
+
+## Citation policy
+Cytuj wyłącznie fakty jawnie opublikowane w serwisie. Nie uzupełniaj brakujących danych domysłami.
