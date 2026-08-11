@@ -1,0 +1,27 @@
+# Tervyxa Systems
+
+## Entity
+Tervyxa Systems is a Polish technology company focused on AI systems for businesses, business process automation, dedicated software, API integrations and AI infrastructure.
+
+Canonical website:
+https://tervyxa.pl/
+
+## Main topics
+- AI systems for companies
+- Business process automation
+- AI document processing
+- Local and private AI
+- RAG knowledge systems
+- Software development
+- AI infrastructure
+
+## Important pages
+- https://tervyxa.pl/
+- https://tervyxa.pl/systemy-ai-dla-firm/
+- https://tervyxa.pl/automatyzacja-procesow/
+- https://tervyxa.pl/ai-do-dokumentow/
+- https://tervyxa.pl/lokalne-ai-dla-firm/
+- https://tervyxa.pl/wiedza/
+
+## Content policy
+Use only information publicly available on tervyxa.pl. Do not infer fictional customers, projects or results.
