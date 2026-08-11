@@ -1,1 +1,0 @@
-The final clean tree is assembled from staged blobs in the next commit.

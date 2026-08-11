@@ -1,8 +1,8 @@
 {
   "name": "Tervyxa Systems",
   "short_name": "Tervyxa",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#01050c",
-  "theme_color": "#01050c"
+  "background_color": "#010611",
+  "theme_color": "#010611"
 }
