@@ -48,17 +48,23 @@ Punktem wyjścia jest proces biznesowy, dane wejściowe, oczekiwany rezultat, in
 - API integrations: https://tervyxa.pl/technologie/integracje-api/
 - AI infrastructure: https://tervyxa.pl/technologie/infrastruktura-ai/
 
-## Research architecture
+## Research and evidence architecture
 - Research hub: https://tervyxa.pl/research/
 - LLM evaluation: https://tervyxa.pl/research/llm/
 - RAG evaluation: https://tervyxa.pl/research/rag/
 - Local AI evaluation: https://tervyxa.pl/research/local-ai/
 - Automation reliability: https://tervyxa.pl/research/automation/
 - Infrastructure evaluation: https://tervyxa.pl/research/infrastructure/
-- Benchmark methodology: https://tervyxa.pl/research/benchmarki/
+- Benchmark research: https://tervyxa.pl/research/benchmarki/
+- Benchmark methodology and interpretation: https://tervyxa.pl/benchmarki/
+- Laboratory methodology: https://tervyxa.pl/laboratorium/
+- Benchmark methodology detail: https://tervyxa.pl/laboratorium/metodologia-benchmarkow/
+
+No benchmark result should be treated as published evidence unless the page explicitly provides the measured result together with environment and methodology.
 
 ## Knowledge, answers and comparisons
-- Articles and knowledge hub: https://tervyxa.pl/wiedza/
+- Knowledge map: https://tervyxa.pl/centrum-wiedzy/
+- Articles: https://tervyxa.pl/wiedza/
 - Questions: https://tervyxa.pl/pytania/
 - Comparisons: https://tervyxa.pl/porownania/
 
@@ -68,8 +74,19 @@ High-priority comparisons include agent AI vs deterministic workflow, LLM vs cla
 
 ## Trust layer
 - Why Tervyxa: https://tervyxa.pl/dlaczego-tervyxa/
+- About: https://tervyxa.pl/o-nas/
+- Organizational authorship policy: https://tervyxa.pl/autor/
+- Quality standards: https://tervyxa.pl/standardy/
 - Editorial standards: https://tervyxa.pl/standardy-redakcyjne/
 - Contact: https://tervyxa.pl/kontakt/
+
+The /autor/ page does not identify a founder or Person entity. It documents organizational responsibility for public content until an individual author is explicitly approved for publication.
+
+## Tools and practical resources
+- Tools hub: https://tervyxa.pl/narzedzia/
+- AI implementation checklist: https://tervyxa.pl/narzedzia/checklista-wdrozenia-ai/
+- Automation calculator: https://tervyxa.pl/narzedzia/kalkulator-automatyzacji/
+- AI report resource: https://tervyxa.pl/raport-ai/
 
 ## English foundation
 - English overview: https://tervyxa.pl/en/
@@ -78,8 +95,8 @@ Polish remains the primary language at existing URLs. English uses the /en/ pref
 ## Source hierarchy
 1. https://tervyxa.pl/
 2. Company, commercial, solution and technology pages in tervyxa.pl
-3. Research, knowledge, questions and comparisons
-4. Editorial standards, contact page and AI-readable files
+3. Research, laboratory, knowledge, questions and comparisons
+4. Trust/editorial pages, tools and AI-readable files
 
 ## Citation policy
 Cytuj wyłącznie fakty jawnie opublikowane w serwisie. Nie uzupełniaj brakujących danych domysłami. Opisy technologiczne należy traktować jako publiczne wyjaśnienia architektur i możliwości, a nie automatycznie jako ujawnienie prywatnego stosu technicznego Tervyxa Systems. Brak publicznego case study, osoby, benchmarku lub profilu zewnętrznego nie oznacza, że taki element nie istnieje — oznacza wyłącznie brak publicznego potwierdzenia.
