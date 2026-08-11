@@ -1,104 +1,117 @@
-# Tervyxa Systems — publiczna strona startowa v2
+# Tervyxa Systems — prewebsite
 
-Oficjalny serwis startowy Tervyxa Systems dla domeny [https://tervyxa.pl/](https://tervyxa.pl/).
+Oficjalna tymczasowa witryna Tervyxa Systems dla domeny `https://tervyxa.pl/`.
 
-**Tervyxa Systems** to polska firma technologiczna rozwijająca systemy AI dla firm, automatyzację procesów biznesowych, dedykowane oprogramowanie, integracje API i infrastrukturę AI.
-
-## Cel prewebsite
-Ta witryna pozostaje stroną tymczasową przed publikacją pełnego serwisu Tervyxa Systems. Jej rolą jest:
-- jasno opisać publiczny zakres działalności,
-- budować widoczność na frazy niebrandowe,
-- dostarczać Google, Bing i systemom AI spójny public truth,
-- zachować szybki, statyczny i responsywny frontend bez ciężkiego JavaScript.
-
-## Topical authority cluster
-Publiczna warstwa została rozszerzona o cztery strony filarowe:
-- `/systemy-ai-dla-firm/`,
-- `/automatyzacja-procesow/`,
-- `/ai-do-dokumentow/`,
-- `/lokalne-ai-dla-firm/`.
-
-Baza wiedzy `/wiedza/` zawiera 10 powiązanych materiałów o:
-- wdrażaniu AI w firmie,
-- lokalnym AI i chmurze,
-- automatyzacji dokumentów,
-- RAG i bazach wiedzy,
-- AI w małej firmie,
-- integracji AI z istniejącymi systemami,
-- prywatnym AI,
-- infrastrukturze CPU/GPU,
-- dedykowanym oprogramowaniu,
-- mapowaniu i automatyzacji procesów.
-
-## Priorytetowe tematy wyszukiwania
-- systemy AI dla firm,
-- automatyzacja procesów biznesowych,
-- wdrożenia AI w firmie,
-- AI do dokumentów i wiedzy firmowej,
-- lokalne i prywatne AI,
-- RAG dla firm,
-- integracje API i przepływy danych,
-- dedykowane oprogramowanie dla firm,
-- infrastruktura AI.
+Prewebsite istnieje do czasu publikacji docelowego serwisu Tervyxa Systems. Jego rolą jest przedstawienie firmy, usług i kompetencji, zapewnienie spójnej publicznej warstwy informacji dla wyszukiwarek i systemów AI oraz utrzymanie lekkiego, statycznego frontendu.
 
 ## Public truth
-- nazwa marki: `Tervyxa Systems`,
-- skrócona nazwa: `Tervyxa`,
-- oficjalna domena kanoniczna: `https://tervyxa.pl/`,
-- język publiczny: polski,
-- obszar komunikacji: Polska.
 
-## Warstwy techniczne
-- GitHub Pages,
+- marka: **Tervyxa Systems**,
+- alias: **Tervyxa**,
+- domena kanoniczna: `https://tervyxa.pl/`,
+- publiczna lokalizacja: **Szczecin, Polska**,
+- publiczny kontakt: `kontakt@tervyxa.pl`,
+- adres uliczny nie jest publikowany,
+- osoba założyciela / Person schema nie jest publikowana,
+- brak publicznie potwierdzonych klientów, case studies, referencji, certyfikatów i wyników wdrożeń,
+- benchmarki mogą być publikowane wyłącznie z jawną metodyką i dowodem pomiaru.
+
+## Główna architektura
+
+### Firma i kontakt
+- `/firma/`
+- `/dlaczego-tervyxa/`
+- `/o-nas/`
+- `/standardy-redakcyjne/`
+- `/kontakt/`
+- `/ai-szczecin/`
+- `/en/`
+
+### Usługi i intencja komercyjna
+- `/uslugi/`
+- `/wdrozenie-ai-dla-firm/`
+- `/audyt-ai/`
+- `/automatyzacja-firmy-ai/`
+- `/systemy-ai-dla-firm/`
+- `/lokalne-ai-dla-firm/`
+- `/ai-do-dokumentow/`
+- `/automatyzacja-procesow/`
+
+### Rozwiązania
+- `/rozwiazania/`
+- `/rozwiazania/prywatny-asystent-ai/`
+- `/rozwiazania/baza-wiedzy-ai/`
+- `/rozwiazania/ai-do-dokumentow/`
+- `/rozwiazania/agent-ai/`
+- `/rozwiazania/lokalne-ai/`
+- `/rozwiazania/automatyzacja-procesow/`
+- `/rozwiazania/integracja-ai-z-systemami/`
+
+### Technologie
+- `/technologie/`
+- `/technologie/llm/`
+- `/technologie/rag/`
+- `/technologie/embedding/`
+- `/technologie/reranking/`
+- `/technologie/local-ai/`
+- `/technologie/integracje-api/`
+- `/technologie/infrastruktura-ai/`
+
+### Wiedza, odpowiedzi i porównania
+- `/wiedza/` — 10 artykułów,
+- `/pytania/` — answer-first / AEO,
+- `/porownania/` — strony decyzyjne,
+- `/research/` — metodologia, wzorce oceny i warstwa evidence-first.
+
+### Branże
+- `/ai-dla-biura/`
+- `/ai-dla-logistyki/`
+- `/ai-dla-malych-firm/`
+- `/ai-dla-produkcji/`
+- `/ai-dla-uslug/`
+
+## Warstwa AI Search / GEO / AEO
+
+Repo zawiera:
+- `entity.json`,
+- `llms.txt`,
+- `llms-full.txt`,
+- `robots.txt`,
+- `sitemap.xml`,
+- kanoniczne URL-e,
+- structured data dobrane do intencji strony,
+- answer-first pages,
+- comparison pages,
+- research/evidence layer,
+- spójne internal linking.
+
+GEO/AEO jest traktowane jako warstwa nad poprawnym SEO, spójnym entity i public truth — nie jako osobny „magiczny algorytm”.
+
+## Frontend
+
 - statyczny HTML + CSS,
-- brak parallaxu i ciężkiego runtime JS,
+- GitHub Pages,
+- brak ciężkiego runtime JavaScript,
 - responsive desktop / tablet / mobile,
-- canonical URL na każdej publicznej stronie,
-- XML sitemap obejmująca cały klaster,
-- crawlable internal linking pomiędzy stroną główną, filarami i bazą wiedzy,
-- structured data: Organization, WebSite, WebPage, ImageObject, Service, FAQPage, Article i BreadcrumbList,
-- IndexNow dla wszystkich kanonicznych URL-i,
-- brak fikcyjnych klientów, wyników, statystyk i danych kontaktowych.
+- iOS/Safari fallback dla kosztownych efektów kompozytowych,
+- hero master: `assets/tervyxa-hero-8k.png`,
+- responsive WebP: 640 / 1280 / 1920 / 2560,
+- OG image: `assets/tervyxa-og-1200.jpg`.
 
-## Walidacja
-- Google Search Console: domena zweryfikowana, sitemap przesłana, live URL indexable,
-- Bing Webmaster Tools: domena zaimportowana, sitemap przesłana, live URL indexable, SEO/GEO bez wykrytych błędów,
-- IndexNow: wszystkie aktualne kanoniczne URL-e wysłane,
-- finalnym gate'em publikacji jest udany build GitHub Pages po pełnym checkpointcie.
+8K PNG jest masterem/upscale i nie jest opisywany jako natywnie wygenerowane 8K.
+
+## Zasady treści
+
+1. Brak publicznego dowodu = brak publicznego potwierdzenia.
+2. Nie publikujemy fikcyjnych wdrożeń, klientów ani benchmarków.
+3. Nie ujawniamy prywatnego stosu technicznego jako oficjalnego stosu produkcyjnego bez osobnej decyzji.
+4. Nie publikujemy danych osoby założyciela ani adresu ulicznego bez osobnej zgody.
+5. Każdy publiczny URL musi mieć odrębną intencję i realną wartość; bez masowego thin content.
+
+## Stan przebudowy
+
+W 2026-08-11 wykonano przebudowę głównych hubów, Technology Authority, Comparison Engine, Solution Engine, Industry Authority oraz całego klastra `/wiedza/*`. Następnie rozpoczęto final normalization / crawl QA: usuwanie martwych URL-i, wyrównanie sitemap i plików AI-readable oraz finalną walidację GitHub Pages.
 
 ## Granica projektu
-Prewebsite nie zastępuje przyszłej głównej witryny. Portfolio, pełne kanały kontaktu, szczegółowe case studies i rozbudowana architektura aplikacyjna zostaną wdrożone w main website.
 
-
-## SEO Authority Upgrade v3 — checkpoint 2026-08-11
-- responsive hero WebP: 640 / 1280 / 1920 / 2560 px, z zachowaniem 8K PNG jako master/fallback,
-- osobny OG image 1200×630,
-- trust layer: `/o-nas/`, `/standardy-redakcyjne/`, `/laboratorium/`,
-- 10 artykułów wiedzy rozszerzonych o kryteria decyzji, ograniczenia, checklisty i kontrolę jakości,
-- jawna polityka: brak fikcyjnych klientów, wdrożeń i benchmarków,
-- wewnętrzne linkowanie między artykułami, filarami i stronami trust,
-- sitemap rozszerzona o pełny klaster v3.
-
-## SEO / GEO / AEO v4 — checkpoint 2026-08-11
-- `llms.txt` + `llms-full.txt`,
-- jawna polityka crawlerów AI w robots.txt,
-- strony trust: `/o-nas/`, `/autor/`, `/kontakt/`, `/standardy/`,
-- authority hub `/technologie/`,
-- laboratorium + metodologia benchmarków,
-- 5 stron branżowych,
-- 5 stron porównawczych/AEO,
-- 10 artykułów rozszerzonych o answer-first, checklisty, ryzyka, bezpieczeństwo i evidence gate,
-- RSS `feed.xml`,
-- pełna sitemap generowana z publicznych HTML,
-- repo-side monitoring i off-site authority plan.
-
-Nie dodano fikcyjnego Person schema, sameAs ani danych kontaktowych — te elementy wymagają zatwierdzonych publicznych danych.
-
-## SEO / GEO / AEO V5 — final implementation 2026-08-11
-- commercial intent: `/uslugi/`, `/wdrozenie-ai-dla-firm/`, `/automatyzacja-firmy-ai/`, `/audyt-ai/`;
-- entity / trust: `/firma/`, `/o-nas/`, `/autor/`, `/standardy-redakcyjne/`, `/kontakt/`, `entity.json`;
-- authority: `/technologie/`, `/research/`, `/laboratorium/`, `/wiedza/`;
-- AEO: `/pytania/` plus dedicated answer pages and `/porownania/`;
-- lead value: `/narzedzia/`, calculator, checklist and `/raport-ai/`;
-- AI-readable: `llms.txt`, `llms-full.txt`;
-- no fabricated clients, testimonials, contacts, certifications or benchmark results.
+To repo jest wyłącznie tymczasowym prewebsite. Nie zastępuje docelowej, znacznie większej witryny Tervyxa Systems i nie powinno przejmować jej przyszłej architektury aplikacyjnej, portfolio ani prywatnych danych projektowych.
