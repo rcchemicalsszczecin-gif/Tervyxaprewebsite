@@ -1,12 +1,11 @@
-# Tervyxa Systems — Prewebsite
+# Tervyxa Systems — strona startowa
 
-Clean rebuild tymczasowej strony startowej Tervyxa Systems.
+Tymczasowy publiczny serwis Tervyxa Systems dla domeny `tervyxa.pl`.
 
-- GitHub Pages
-- domena `tervyxa.pl`
-- oryginalny artwork jako centralna scena
-- minimalistyczny interfejs Liquid Glass
-- brak frameworków i backendu
-- centrum logo pozostaje niezasłonięte
+Zakres komunikacji publicznej:
+- systemy AI,
+- automatyzacja,
+- oprogramowanie,
+- infrastruktura.
 
-Repozytorium dotyczy wyłącznie strony prewebsite.
+Strona jest hostowana przez GitHub Pages i korzysta z domeny `tervyxa.pl`.
